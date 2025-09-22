@@ -6,7 +6,7 @@
 - livro:
     atributos:
         - titulo
-        - altor
+        - autor
     metodos:
         - get_disponivel():
         - set_disponivel(valor: bool):
