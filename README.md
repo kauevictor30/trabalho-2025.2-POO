@@ -3,16 +3,15 @@
 ----------------------
 
 # classes:
+- livro:
+    atributos:
+        - titulo
+        - altor
+    metodos:
+        - get_disponivel():
+        - set_disponivel(valor: bool):
 
-livro:
-        atributos:
-            - titulo
-            - altor
-        metodos:
-            - get_disponivel():
-            - set_disponivel(valor: bool):
-
-usuario:
+- usuario:
     atributos:
         - nome
         - livros_emprestados
